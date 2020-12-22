@@ -1,14 +1,5 @@
-.App {
+#home {
   text-align: center;
-}
-
-.App-title {
-  padding-left: 5px;
-  font-size: 350%;
-  color: #dbbebb;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,23 +10,21 @@
   color: white;
 }
 
-.App-blink {
-  font-weight: bolder;
-  padding-bottom: 2px;
+.home-title {
+  padding-left: 5px;
+  font-size: 350%;
+  color: #dbbebb;
+}
+
+.home-blink {
   animation: blink 1s linear infinite;
 }
 
-.App-desc {
-  margin-top: 3%;
-}
-
-.App-name {
-  font-weight: bold;
-  font-size: 150%;
+.home-name {
   font-family: 'Courier New', monospace;
 }
 
-.App-quote {
+.home-quote {
   font-size: 90%;
   font-family: 'Courier New', monospace;
 }
