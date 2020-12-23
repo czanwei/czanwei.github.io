@@ -1,4 +1,6 @@
 #contact {
-	background-color: #282c34;
-	min-height: 92vh;
+	background-color: #0d1a1f;
+	min-height: 100vh;
+	display: flex;
+  flex-direction: column;
 }

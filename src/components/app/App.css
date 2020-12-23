@@ -1,6 +1,23 @@
+.app-nav {
+  background-color: #060d10!important;
+}
+
+.app-footer {
+  text-align: center;
+}
+
+.app-footer-text {
+  margin: 0;
+}
+
+.nav-link {
+  color: white!important;
+  font-size: 130%;
+}
+
 #home {
   text-align: center;
-  background-color: #282c34;
+  background-color: #0d1a1f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,27 +33,48 @@
   color: #dbbebb;
 }
 
-.home-blink {
-  animation: blink 1s linear infinite;
+.home-typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-right: 7px solid #dbbebb;
+  animation: typing 4s steps(11, end), blink .95s step-end infinite;
 }
 
-.home-name {
+.home-desc {
   font-family: 'Courier New', monospace;
 }
 
 .home-quote {
   font-size: 90%;
-  font-family: 'Courier New', monospace;
 }
 
-@keyframes blink{
-  0% {
-    opacity: 0;
+.home-foot {
+  position: relative;
+  bottom: 10px;
+  left: -10px;
+  width: 110%;
+  height: 20px;
+  background-color: #060d10;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
   }
   50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+    border-color: #dbbebb;
   }
 }
