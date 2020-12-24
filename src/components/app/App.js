@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import logo from '../../resources/logo-dusty-pink.svg';
 import About from '../about/About';
@@ -6,18 +6,14 @@ import Contact from '../contact/Contact';
 import { Navbar, Nav } from 'react-bootstrap';
 import * as Scroll from 'react-scroll';
 import { Link, Events } from 'react-scroll';
+import {isMobile} from 'react-device-detect';
 
 function App() {
-
-	const [isMobile, setMobile] = useState(false);
 
 	let scroll = Scroll.animateScroll;
 	let scrollSpy = Scroll.scrollSpy;
 
 	useEffect(() => {
-		window.addEventListener('resize', () => {
-			setMobile(window.innerWidth < 1080);
-		}, false);
 
 		Events.scrollEvent.register("begin", function() {});
 		Events.scrollEvent.register("end", function() {});
