@@ -33,6 +33,10 @@
   color: #dbbebb;
 }
 
+.home-title-small {
+  font-size: 85%;
+}
+
 .home-typewriter {
   display: inline-block;
   overflow: hidden;
@@ -46,6 +50,10 @@
   font-family: 'Courier New', monospace;
 }
 
+.home-desc-small {
+  font-size: 1.5rem;
+}
+
 .home-quote {
   font-size: 90%;
 }
@@ -53,8 +61,7 @@
 .home-foot {
   position: relative;
   bottom: 10px;
-  left: -10px;
-  width: 110%;
+  width: 100%;
   height: 20px;
   background-color: #060d10;
   filter: blur(5px);

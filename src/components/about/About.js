@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import './About.css'
 import me from '../../resources/me.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,21 +6,13 @@ import { faUserCircle, faInbox, faMapMarkerAlt, faUniversity, faHiking } from '@
 
 function About(props) {
 
-	const [isMobile, setMobile] = useState(false);
-
-	useEffect(() => {
-		window.addEventListener('resize', () => {
-			setMobile(window.innerWidth < 770);
-		}, false);
-	});
-
 	return (
 		<div id={props.name}>
 			<div className="container mt-5">
 				<div className="row mt-4 mt-md-5">
 					<h1 className="w-100 text-center mt-4">About Me</h1>
 				</div>
-				<div className={(isMobile ? "" : "about-container ") + "row mt-0 mt-md-3 ml-sm-0 ml-md-5 pb-3"}>
+				<div className={(props.isMobile ? "" : "about-container ") + "row mt-0 mt-md-3 ml-sm-0 ml-md-5 pb-3"}>
 					<div className="col-md-4 col-sm-12">
 						<img src={me} width="300" height="300" className="about-me d-block mx-auto" alt="zanwei's portrait" />
 						<div className="row mt-4 ml-1 p-2">
