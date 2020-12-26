@@ -1,0 +1,19 @@
+#tech {
+	background-color: #0d1a1f;
+	min-height: 100vh;
+	display: flex;
+  flex-direction: column;
+}
+
+.tech-chart-expand {
+	animation: expand 2.5s;
+}
+
+@keyframes expand {
+	from {
+		width: 18%;
+	}
+	to {
+		width: 100%;
+	}
+}

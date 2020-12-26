@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import logo from '../../resources/logo-dusty-pink.svg';
 import About from '../about/About';
-import Contact from '../contact/Contact';
+import Tech from '../tech/Tech';
 import { Navbar, Nav } from 'react-bootstrap';
 import * as Scroll from 'react-scroll';
 import { Link, Events } from 'react-scroll';
@@ -16,7 +16,11 @@ function App() {
 	useEffect(() => {
 
 		Events.scrollEvent.register("begin", function() {});
-		Events.scrollEvent.register("end", function() {});
+		Events.scrollEvent.register("end", function(to, ele) {
+			if (to === "tech") {
+				document.getElementById("tech-chart").classList.add("tech-chart-expand");
+			}
+		});
 		scrollSpy.update();
 		scroll.scrollToTop();
 
@@ -35,7 +39,7 @@ function App() {
 				<Nav>
 					<Link className="nav-link" role="button" to="home" spy={true} smooth={true} duration={500}>Home</Link>
 					<Link className="nav-link" role="button" to="about" spy={true} smooth={true} duration={500}>About</Link>
-					<Link className="nav-link" role="button" to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+					<Link className="nav-link" role="button" to="tech" spy={true} smooth={true} duration={500}>Tech</Link>
 				</Nav>
 			</Navbar>
 			<div id="home">
@@ -49,7 +53,7 @@ function App() {
 			</div>
 			<div className="home-foot"></div>
 			<About name="about" isMobile={isMobile} />
-			<Contact name="contact" />
+			<Tech name="tech" />
 		</>
 	);
 }
