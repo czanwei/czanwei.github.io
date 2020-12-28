@@ -9,6 +9,25 @@
 	animation: expand 2.5s;
 }
 
+.fa-star {
+	padding-top: 0;
+}
+
+.svg-inline--fa {
+	padding-top: 10px;
+}
+
+.tech-logo {
+	padding-top: 15px;
+	margin-right: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+	.tech-logo {
+		margin-right: 0.3em;
+	}
+}
+
 @keyframes expand {
 	from {
 		width: 18%;

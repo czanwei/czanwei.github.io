@@ -68,6 +68,32 @@
   z-index: -1;
 }
 
+.home-back-top {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  padding: 0 5px 10px 5px;
+  border-radius: 1em;
+  opacity: 0.3;
+}
+
+.home-back-top:hover {
+  opacity: 0.8;
+}
+
+.fa-chevron-up {
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-back-top {
+    padding: 0 10px 10px 10px;
+  }
+}
+
 @keyframes typing {
   from {
     width: 0%;

@@ -2,8 +2,10 @@ import './BarGroup.css'
 import { isMobile } from 'react-device-detect';
 
 function BarGroup(props) {
+	// padding between each bar
 	let barPadding = isMobile ? 2 : 3;
 	let barColour = '#39758d';
+	// scale width to 5%
 	let widthScale = d => d * window.innerWidth * 0.05;
 
 	let width = widthScale(props.d.value);

@@ -1,17 +1,9 @@
 .bar-group {
 	text-anchor: end;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	fill: #fff;
 }
 
-.bar-group .bar-label {
-	font-weight: 300;
-}
-
 .bar-group .bar-lable-mobile {
-	font-size: 0.75em;
-}
-
-.bar-group .bar-value {
-	font-weight: 700;
+	font-size: 0.7em;
 }

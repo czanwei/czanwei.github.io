@@ -7,6 +7,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 import * as Scroll from 'react-scroll';
 import { Link, Events } from 'react-scroll';
 import {isMobile} from 'react-device-detect';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
@@ -54,6 +56,9 @@ function App() {
 			<div className="home-foot"></div>
 			<About name="about" isMobile={isMobile} />
 			<Tech name="tech" />
+			<div className="home-back-top" onClick={scroll.scrollToTop}>
+				<FontAwesomeIcon icon={faChevronUp} size={isMobile ? "2x" : "3x"} />
+			</div>
 		</>
 	);
 }
