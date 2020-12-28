@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.b40e5b1f.chunk.css",
-    "main.js": "/static/js/main.7a308379.chunk.js",
-    "main.js.map": "/static/js/main.7a308379.chunk.js.map",
+    "main.css": "/static/css/main.b8e39e2a.chunk.css",
+    "main.js": "/static/js/main.3a8a8038.chunk.js",
+    "main.js.map": "/static/js/main.3a8a8038.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1898325c.js",
     "runtime-main.js.map": "/static/js/runtime-main.1898325c.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.cbfcda75.chunk.js": "/static/js/2.cbfcda75.chunk.js",
-    "static/js/2.cbfcda75.chunk.js.map": "/static/js/2.cbfcda75.chunk.js.map",
+    "static/js/2.81df7af9.chunk.js": "/static/js/2.81df7af9.chunk.js",
+    "static/js/2.81df7af9.chunk.js.map": "/static/js/2.81df7af9.chunk.js.map",
     "static/js/3.1c0d9cb9.chunk.js": "/static/js/3.1c0d9cb9.chunk.js",
     "static/js/3.1c0d9cb9.chunk.js.map": "/static/js/3.1c0d9cb9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.b40e5b1f.chunk.css.map": "/static/css/main.b40e5b1f.chunk.css.map",
-    "static/js/2.cbfcda75.chunk.js.LICENSE.txt": "/static/js/2.cbfcda75.chunk.js.LICENSE.txt",
+    "static/css/main.b8e39e2a.chunk.css.map": "/static/css/main.b8e39e2a.chunk.css.map",
+    "static/js/2.81df7af9.chunk.js.LICENSE.txt": "/static/js/2.81df7af9.chunk.js.LICENSE.txt",
+    "static/media/cordova.95c48105.svg": "/static/media/cordova.95c48105.svg",
+    "static/media/google-cloud.61f1f28e.svg": "/static/media/google-cloud.61f1f28e.svg",
+    "static/media/ibm.087c4b69.svg": "/static/media/ibm.087c4b69.svg",
     "static/media/logo-dusty-pink.4d056129.svg": "/static/media/logo-dusty-pink.4d056129.svg",
-    "static/media/me.fcd36f1e.jpg": "/static/media/me.fcd36f1e.jpg"
+    "static/media/me.fcd36f1e.jpg": "/static/media/me.fcd36f1e.jpg",
+    "static/media/spring.28513928.svg": "/static/media/spring.28513928.svg",
+    "static/media/typescript.d6ab4b7f.svg": "/static/media/typescript.d6ab4b7f.svg",
+    "static/media/webrtc.514f8c4c.svg": "/static/media/webrtc.514f8c4c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1898325c.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.cbfcda75.chunk.js",
-    "static/css/main.b40e5b1f.chunk.css",
-    "static/js/main.7a308379.chunk.js"
+    "static/js/2.81df7af9.chunk.js",
+    "static/css/main.b8e39e2a.chunk.css",
+    "static/js/main.3a8a8038.chunk.js"
   ]
 }
